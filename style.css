@@ -6,21 +6,21 @@
 
 @font-face {
     font-family: 'guidy';
-    src: url('fonts/Guidy.ttf') format("truetype");
+    src: url('Guidy.ttf') format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'nuqun';
-    src: url('fonts/Nuqun.otf') format("opentype");
+    src: url('Nuqun.otf') format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'tovar';
-    src: url('fonts/Tovar.otf') format("opentype");
+    src: url('Tovar.otf') format("opentype");
     font-weight: normal;
     font-style: normal;
 }
