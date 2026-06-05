@@ -178,7 +178,7 @@ bye_copy.addEventListener('click', async () => {
 
 window.addEventListener('DOMContentLoaded', () => {
     inputs.forEach(input => {
-        const key = `cache_${input.class}`;
+        const key = `cache_${input.className}`;
         const value = localStorage.getItem(key);
       
         if (value !== null) {
