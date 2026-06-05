@@ -185,6 +185,7 @@ window.addEventListener('DOMContentLoaded', () => {
             input.value = value;
         }
     });
+    update_msgs();
 });
 
 teacher_name.addEventListener('input', (e) => {
@@ -217,5 +218,3 @@ course .addEventListener('input', (e) => {
     localStorage.setItem(key, course.value);
     update_msgs();
 });
-
-update_msgs();
