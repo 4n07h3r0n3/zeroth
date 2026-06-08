@@ -6,6 +6,9 @@ const course = document.getElementsByClassName("course")[0];
 
 // deployment misses updates in this file brooo
 
+// looks like it also ignores updates if they are just comments
+console.log("son");
+
 const inputs = [
     teacher_name,
     student_name,
