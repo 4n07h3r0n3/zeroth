@@ -4,6 +4,8 @@ const lesson_time = document.getElementsByClassName("lesson-time")[0];
 const ktalk_link = document.getElementsByClassName("ktalk-link")[0];
 const course = document.getElementsByClassName("course")[0];
 
+// deployment misses updates in this file brooo
+
 const inputs = [
     teacher_name,
     student_name,
