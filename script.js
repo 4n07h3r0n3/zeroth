@@ -1,5 +1,4 @@
 const teacher_name = document.getElementsByClassName("teacher-name")[0];
-const parent_name = document.getElementsByClassName("parent-name")[0];
 const student_name = document.getElementsByClassName("student-name")[0];
 const lesson_time = document.getElementsByClassName("lesson-time")[0];
 const ktalk_link = document.getElementsByClassName("ktalk-link")[0];
@@ -7,7 +6,6 @@ const course = document.getElementsByClassName("course")[0];
 
 const inputs = [
     teacher_name,
-    parent_name,
     student_name,
     lesson_time,
     ktalk_link,
@@ -74,7 +72,7 @@ P.S. Если будут вопросы, то пишите! Будем рады 
 const update_bye = function() {
     let bye = "";
 
-    bye += `${parent_name.value}, наш бонусный урок прошёл очень хорошо! 👍`;
+    bye += `Наш бонусный урок прошёл очень хорошо! 👍`;
 
     switch (course.value) {
         case 'jun':
@@ -130,7 +128,7 @@ https://rutube.ru/video/private/27aea3b326e46c788a4170f3ab56f0e4/?p=acCzJqtNbQjG
     }
 
     bye += `
-${parent_name.value}, ещё у нас есть для Вас небольшой подарок🎁: Руководство по мотивации ребенка. Оно касается уже не только Квантастики, но и обучения чему угодно!
+Ещё у нас есть для Вас небольшой подарок🎁: Руководство по мотивации ребенка. Оно касается уже не только Квантастики, но и обучения чему угодно!
 Вот ссылка:
 https://drive.google.com/file/d/1LBO-uUdGtdcFz1QYySsUi0Hsszppyp3x/view?usp=sharing 
     `;
@@ -191,11 +189,6 @@ window.addEventListener('DOMContentLoaded', () => {
 teacher_name.addEventListener('input', (e) => {
     const key = `cache_teacher-name`;
     localStorage.setItem(key, teacher_name.value);
-    update_msgs();
-});
-parent_name.addEventListener('input', (e) => {
-    const key = `cache_parent-name`;
-    localStorage.setItem(key, parent_name.value);
     update_msgs();
 });
 student_name.addEventListener('input', (e) => {
