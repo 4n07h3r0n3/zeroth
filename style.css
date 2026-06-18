@@ -1,7 +1,7 @@
 :root {
-    --violet: #751DD3;
-    --green: #20D31D;
-    --yellow: #D3D01D;
+    --violet: #5F634F;
+    --green: #9BC4CB;
+    --yellow: #CFEBDF;
 }
 
 @font-face {
@@ -56,7 +56,7 @@ body {
 
 .title {
     font-family: 'tovar', sans-serif;
-    color: white;
+    color: var(--yellow);
     line-height: 80%;
     letter-spacing: 0.07em;
     font-size: 50pt;
